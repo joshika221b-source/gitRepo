@@ -26,8 +26,6 @@ let colorIndex = 0;
 function changeMessage() {
     document.getElementById("message").textContent =
         "You just used JavaScript! 🚀";
-<<<<<<< Updated upstream:new.jss
-=======
 
     document.body.style.backgroundColor = colors[colorIndex];
 
@@ -36,5 +34,5 @@ function changeMessage() {
     if (colorIndex === colors.length) {
         colorIndex = 0;
     }
->>>>>>> Stashed changes:new.js
+
 }

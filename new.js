@@ -35,4 +35,5 @@ function changeMessage() {
         colorIndex = 0;
     }
 
+    document.body.style.backgroundColor = "lightblue";
 }

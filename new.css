@@ -1,8 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
     text-align: center;
-    padding: 50px;
+    flex-direction: column;
 }
 
 h1 {
